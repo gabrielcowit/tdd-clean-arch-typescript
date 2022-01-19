@@ -4,11 +4,12 @@
         "rootDir": "src",
         "target": "es2021",
         "sourceMap": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
         "module": "commonjs",
         "moduleResolution": "node",
         "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true,
+        "baseUrl": "src",
         "paths": {
             "@/*": ["./*"],
             "@/tests/*": ["../tests/*"]
