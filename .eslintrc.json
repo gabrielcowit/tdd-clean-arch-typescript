@@ -2,7 +2,9 @@
 	"extends": "standard-with-typescript",
 	"rules": {
 		"semi": "off",
-		"@typescript-eslint/semi":	[2, "always"]
+		"@typescript-eslint/semi":	[2, "always"],
+		"indent": "off",
+		"@typescript-eslint/indent": ["error", 4]
 	},
 	"parserOptions": {
 		"project": "./tsconfig.json"
